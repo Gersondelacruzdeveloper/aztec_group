@@ -1,13 +1,22 @@
 .charts {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 20px;
-  
-    .chart-container {
-      background: #ffffff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+  .chart-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  
+
+  // Adjust layout for tablets (768px - 1024px)
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  // Adjust layout for mobile (less than 768px)
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}

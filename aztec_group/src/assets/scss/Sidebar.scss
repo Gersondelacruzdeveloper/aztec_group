@@ -1,4 +1,5 @@
 .sidebar {
+    position: relative;
     width: 250px;
     background-color: #4caf50;
     padding: 20px;
@@ -7,7 +8,8 @@
     flex-direction: column;
     align-items: center;
     height:100vh;
-  
+    bottom: 0; /* Stretch from top to bottom */
+
     ul {
       list-style-type: none;
       padding: 0;
