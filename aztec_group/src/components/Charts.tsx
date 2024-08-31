@@ -44,8 +44,20 @@ const Charts: React.FC = () => {
 
   return (
     <div className="charts">
-      <h2>Evolve</h2>
       <div className="chart-container">
+       <h2>Evolve</h2>
+        <Line data={data} />
+      </div>
+      <div className="chart-container">
+       <h2>Evolve</h2>
+        <Line data={data} />
+      </div>
+      <div className="chart-container">
+       <h2>Evolve</h2>
+        <Line data={data} />
+      </div>
+      <div className="chart-container">
+       <h2>Evolve</h2>
         <Line data={data} />
       </div>
     </div>
