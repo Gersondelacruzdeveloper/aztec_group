@@ -1,0 +1,21 @@
+.upload-section {
+    text-align: center;
+    margin-bottom: 30px;
+  
+    .upload-box {
+      border: 2px dashed #cccccc;
+      padding: 20px;
+      display: inline-block;
+      cursor: pointer;
+  
+      button {
+        margin-left: 20px;
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+  
